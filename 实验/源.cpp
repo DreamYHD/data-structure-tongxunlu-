@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
-#define MAXSIZE 100
+#define MAXSIZE 1000
 typedef struct linklist {
 	struct linklist *next;
 	char name[MAXSIZE];
